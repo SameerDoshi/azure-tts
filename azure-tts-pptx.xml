@@ -1,5 +1,6 @@
 <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
     <voice name="en-US-JennyNeural">
+        <break time="2000ms" />
         <prosody rate="30%" pitch="0%">
         <mstts:express-as style="chat">
                 Before we start I want to disclose that all voices you hear during this presentation are synthesized. 
