@@ -1,18 +1,18 @@
 <speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="https://www.w3.org/2001/mstts" xml:lang="en-US">
-    <voice name="en-US-JennyNeural">
+    <voice name="en-CA-ClaraNeural">
         <break time="2000ms" />
-        <prosody rate="30%" pitch="0%">
+        <prosody rate="15%" pitch="0%">
         <mstts:express-as style="chat">
                 Before we start I want to disclose that all voices you hear during this presentation are synthesized. 
                 All voices were produced using the Azure Text to Speech service which uses AI to simulate human voices.
                 All content in the presentation was made by Sameer Doshi, a cloud solutions architect at Microsoft and can be found on his GitHub under the Azure TTS repository.            
                 Ok, Aria, take it away!
-            <break time="300ms" />
+            <break time="150ms" />
         </mstts:express-as>
         </prosody>
         </voice>
         <voice name="en-US-AriaNeural">
-        <prosody rate="20%" pitch="0%">
+        <prosody rate="10%" pitch="0%">
         <mstts:express-as style="chat">
                 When I was 5 my friends and I had lots of fun during "computer time" at school.  We made the computer say silly things in a computerized voice using it's text to speech program.  Silly things like 
                 <break time="200ms" />
@@ -30,7 +30,7 @@
         </mstts:express-as>
         <mstts:express-as style="chat">
                 <break time="200ms" />
-                Since then the quality and abilities of speech to text have come along way.  With Azure Text To Speech Service, TTS for short, we’ve made it easy to add speech to complex Health Care scenarios. 
+                Since then the quality and abilities of speech to text have really improved. With Azure Text To Speech Service, TTS for short, we’ve made it easy to add speech to complex Health Care scenarios. 
                 <break time="150ms" />
                 After I go over technical capabilities of the TTS service, 
                 <break time="50ms" />
@@ -38,13 +38,13 @@
                 <break time="50ms" />
                  and Jenny will share some example TTS scenarios for Health Care and Life Sciences companies
         </mstts:express-as>
-        <break time="300ms" />
+        <break time="150ms" />
         <mstts:express-as style="newscast-casual">
           The Azure Text To Speech service is one of Azure's cognitive services.  Cognitive services let people and organizations easily use AI to enhance human abilities.  
           Azure also offers human parity computer vision, speech, face, and sentiment recognition.  Along with other AI services.  
           But today let's focus on the Text-To-Speech (TTS) service. It converts written text to high quality voices synthesized  via Neural networks.  
           <break time="150ms" />
-          TTS has over 150 voices in 50 languages.
+          TTS has over 200 voices in 50 languages.
           <break time="150ms" />
           Each voice's pitch and speed can be adjusted, or different styles can be used.
           For example:
@@ -87,11 +87,11 @@
           </prosody>
     </voice>
     <voice xml:lang='en-US' name='en-US-GuyNeural'>
-        <prosody rate="27%" pitch="-5%">
+        <prosody rate="10%" pitch="-5%">
         <mstts:express-as style="newscast">   
                 <break time="500ms" />
                 Thanks Jenny!   
-                <break time="300ms" />
+                <break time="150ms" />
                 Let’s make COVID-19 information on twitter more accessible.  
                 <break time="200ms" />
                 Dr. Ashish Jha is the Dean of Brown University School of Public Health.  He often posts messages that are too long to fit into a single tweet, so Twitter breaks these messages into threads. 
@@ -102,7 +102,7 @@
         </prosody>
     </voice>
     <voice xml:lang='en-US' name='en-US-Benjamin'>
-        <prosody rate="45%" pitch="-5%">
+        <prosody rate="20%" pitch="-5%">
             “Ashish K Jha MD MPH The rising proportion of…..” 
             “Ashish K Jha MD MPH replying to Ashish K Jha MD MPH: 2/3 and the effects of …..”
             “Ashish K Jha MD MPH replying to Ashish K Jha MD MPH: 3/3 leads us to 
@@ -111,7 +111,7 @@
         </prosody>
         </voice>
     <voice xml:lang='en-US' name='en-US-GuyNeural'>
-         <prosody rate="27%" pitch="-5%">
+         <prosody rate="10%" pitch="-5%">
             <mstts:express-as style="newscast">   
                 <break time="200ms" />
                  Yikes! That’s hard to understand. Using a bit of text transformation and TTS we can instead make it sound like:
@@ -123,7 +123,7 @@
                  <break time="500ms" />
                  Let's hop to the Azure Portal.
                  <break time="500ms" />
-                 I have all the code running as a LogicApp and you can find the code exported to Sameer Doshi's GitHub under the Azure TTS repo.
+                 I have all the code running as a logic app and you can find the code exported to Sameer Doshi's GitHub under the Azure TTS repo.
                  <break time="750ms" />
                  This Logic App does the following:
                 <break time="150ms" />
@@ -136,7 +136,7 @@
                     It uploads the speech to blob 
                 <break time="150ms" />
                     Finally it replies to the original tweet with a link to the TTS audio. 
-                <break time="300ms" />
+                <break time="150ms" />
                     Follow Text to Speech on Twitter to see this logic app in action.  
                 <break time="200ms" />
                 Let’s take a look at the TTS step.
@@ -144,26 +144,26 @@
                 The XML is written in the Speech Synthesis Markup Language format.
                 And this example is just about as complex as it gets. 
                 If you look in Sameer's GitHub you can see the SSML for this entire presentation.                               
-                <break time="300ms" />
+                <break time="150ms" />
                  Let me turn it over to Jenny to talk through what Health Care Life Sciences companies could do with this easy to use, awesome tech. 
             </mstts:express-as> 
         </prosody>
     </voice>
  <voice xml:lang='en-US' name='en-US-JennyNeural'>
-        <prosody rate="27%" pitch="-5%">
+        <prosody rate="17%" pitch="-5%">
         <mstts:express-as style="chat">
-            <break time="300ms" />
+            <break time="150ms" />
             Thanks Gary. 
          <break time="100ms" />
             Gary didn’t mention that it took him less than 24 hours to go from no knowledge to the end to end app.  I bet most engineers would have similar, or faster, time to market.   But what could a Health Care or Life Sciences company do with this tech? 
             Here are 4 quick examples. 
             <break time="100ms" />
             You could just use the example I made above summarizing Tweets from your company's account. 
-            <break time="300ms" />
+            <break time="150ms" />
             Or: Does your company send long emails or newsletters?  Perhaps you send a bi-weekly covid-19 update email?   Well why not publish that as a private podcast?  Then people will have one less email to read, and people could listen to it on their commute, or in true  pandemic fashion, on their exercise bike.  Keep people in your company up-to-date on lengthy topics easily.  Work for a hospital and want to keep staff up-to-date about the latest policies?  Publishing a private 3 minute podcast every week would be an efficient, easy way to reach everyone.  Or maybe you run a lab and want to let all lab users know about the new scheduling system.  Instead of an easily ignored email, quickly publish audio that explains the process.  A setup that takes in an email and publishes to a podcast library would probably take less than 24 hours to be fully implemented. 
-            <break time="300ms" />
+            <break time="150ms" />
             Our third example takes the first one a bit further.  Your company could  have many people publish content as one person.  In this scenario, let’s say you’re a company that makes vaccines.  How powerful would it be to have a weekly web series where someone from research explains how your latest vaccine works.  And then, next week someone from compliance, in the same voice, explains the lengthy process to certify a vaccine as safe and effective.  Followed the next week, again, in the same voice,  someone from distribution explains the supply chain for vaccines.  All three people would submit written content that is then synthesized and presented as the one voice for your company.  No more having to green room, interview, review, and edit.  Instead content review is done up front, in writing, and only reviewed content is presented.  Changing content is as simple as cutting the old content and pasting the new content!  With custom voice you could even use your company’s branded voice- speaking with the authority of your SMEs!  
-            <break time="300ms" />
+            <break time="150ms" />
             In our fourth example- there’s lots of text in the world, but we don’t need all of it at all times.  Think about a patient chart- it has name, birthdate, and full medical history.  But the doctor moving from one room to another may only need to hear the latest info about the patient she’s about to see.   An app that could TTS the latest info on a patient would allow our doctor to get a summary while walking.   
             <break time="100ms" />
         
@@ -171,12 +171,12 @@
         <mstts:express-as style="assistant">
             Think about it, you have the power to make a voice say whatever you want!
             Words matter, and when you can edit what you say just like you edit a document, the sky is the limit! 
-            <break time="300ms" />
+            <break time="150ms" />
         </mstts:express-as>
         </prosody>
     </voice>
     <voice xml:lang='en-US' name='en-US-GuyNeural'>
-        <prosody rate="20%" pitch="-5%">
+        <prosody rate="15%" pitch="-5%">
         <mstts:express-as style="chat">   
         Hi there, One last thing.  
         </mstts:express-as>
@@ -188,7 +188,7 @@
             So bottom line:
             <break time="100ms" /> 
             while anyone, regardless of technical ability, can use AI to enhance their own abilities, AI cannot replace people.
-         <break time="300ms" /> 
+         <break time="150ms" /> 
                     Thanks again for watching, I hope TTS helps you and if you have any questions please feel free to contact Sameer Doshi via GitHub.
     </mstts:express-as>
     </prosody>
